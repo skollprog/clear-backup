@@ -12,7 +12,6 @@
 
 		public function scan()
 		{
-			$this->route();
 			$filters = array(
 				".",
 				"..",
