@@ -18,8 +18,7 @@
 				".htaccess",
 				"emptydir",
 				"index.html",
-				"web.config",
-				"clear-backup.php"
+				"web.config"
 			);
 			$this->files = array_diff(scandir($this->route), $filters);
 		}
